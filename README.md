@@ -1,5 +1,13 @@
 ﻿# Cogoport-assesment
 
+#setting up environment 
+run the following code
+
+pip install virtualenv
+virtualenv env 
+cd .\env
+.\Scripts\activate
+
 #intalling dependencies 
  pip install fastapi uvicorn  sqlalchemy psycopg2-binary
 
