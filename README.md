@@ -11,7 +11,7 @@ cd .\env
 #intalling dependencies 
  pip install fastapi uvicorn  sqlalchemy psycopg2-binary
 
-#running the fastAPI application
+#running the fastAPI application make sure you cd into cogoport-assesment-main
  uvicorn main:app --reload
 
 #in database.py file change URL of database accordingly
